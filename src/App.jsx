@@ -35,15 +35,27 @@ function App() {
       <p>UX/UI Designer and Full Stack Developer at TechUp</p>
       <p>May 2021 - Present</p>
       <h3>Education</h3>
+      <p>Rajabhat Chiang Mai University, Thailand</p>
+      <p>Degree of Science and Technology, Public Health</p>
+      <p>2011 - 2015</p>
       <p>TechUp</p>
       <p>2021 - Present</p>
-      <p>University of California, Berkeley</p>
-      <p>2017 - 2021</p>
+      <h3>Full Stack Developer Final Projects</h3>
+      <p>Home Service</p>
+      <p>Home Service is a website that provides services for home maintenance. The website has two types of users: clients and admins. Clients can book services and admins can manage services.</p>
+      <ul>
+        <li><a href="https://home-service-l3fl.onrender.com/">Client</a></li>
+      <li><a href="https://home-service-admin.onrender.com/">Admin</a></li>
+      <li><a href="https://home-service-server.onrender.com/">Server</a></li>
+      </ul>
+      <h3>Experience's Life</h3>
       <h3>Contact</h3>
-      <p>Email:themeyv@gmail.com</p>
-      <p>Phone: 510-555-5555</p>
-      <p>LinkedIn: https://www.linkedin.com/in/po-malone-123456789/</p>
-      <p>GitHub:https://github.com/themeyv</p>
+      <a href="https://www.themeyv@gmail.com">Email</a>
+
+      <p>Phone:+66874665929</p>
+      <a href="https://www.linkedin.com/methawee-potha/">LinkedIn: Methawee Potha</a>
+      <br></br>
+      <a href="https://github.com/themeyv">GitHub: Methawee Potha</a>
       </>
   )
 }
