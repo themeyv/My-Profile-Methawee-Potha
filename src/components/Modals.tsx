@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, Button, Box, Typography } from '@mui/material';
 import { styled } from '@mui/system';
+import Cry from '../assets/cry.jpg'
 
 const StyledBox = styled(Box)({
   position:'absolute',
@@ -39,8 +40,8 @@ export default function Modals() {
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             <img
-              src="src/assets/cry.jpg"
-              alt="Resume"
+              src={Cry}
+              alt="Crying"
               style={{ width: '450px', height: '650px' }}
             />
           </Typography>
