@@ -65,3 +65,31 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+/* Background.css */
+.background-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bubble {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  animation: floatAnimation 3s infinite alternate;
+  z-index: -1; /* Set a lower z-index */
+}
+
+@keyframes floatAnimation {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
