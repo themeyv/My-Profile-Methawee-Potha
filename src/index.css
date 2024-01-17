@@ -35,6 +35,7 @@ h1 {
 }
 
 button {
+  margin: 6px;
   border-radius: 6px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -81,7 +82,7 @@ button:focus-visible {
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
-  animation: floatAnimation 3s infinite alternate;
+  animation: floatAnimation 2s infinite alternate;
   z-index: -1; /* Set a lower z-index */
 }
 
