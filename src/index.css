@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #273839;
-  background-color: #ded9cb;
+  background-color: #9fad84;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -93,4 +93,21 @@ button:focus-visible {
   to {
     transform: translateY(0);
   }
+}
+
+
+
+.card {
+  background-color: #ded9cb; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #333; 
+}
+
+p {
+  color: #555; /* Adjust the text color */
 }

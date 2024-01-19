@@ -1,6 +1,5 @@
 import './App.css'
 import Header from './components/Header'
-import Modals from './components/Modals'
 import ContactMe from './components/ContactMe'
 import Resume from './components/Resume'
 import GitHub from './components/GitHub'
@@ -9,7 +8,7 @@ import methawee from '../src/assets/methawee.jpg'
 function App() {
   return (
     <>
-    <div className="App">
+    <div className="App card">
     <img
               src={methawee}
               alt="methawee"
@@ -18,6 +17,7 @@ function App() {
             <Resume/>
             <GitHub/>
      <ContactMe/></div>
+    
       </>
   )
 }
